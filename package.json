@@ -19,6 +19,7 @@
     "@livekit/components-styles": "^1.0.6",
     "@mux/spaces-web": "^1.2.0",
     "@planetscale/database": "^1.11.0",
+    "@radix-ui/react-scroll-area": "^1.0.4",
     "@types/node": "20.6.2",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
