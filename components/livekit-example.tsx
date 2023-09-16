@@ -12,11 +12,12 @@ import {
 } from "@livekit/components-react";
 import { useEffect, useState } from "react";
 import { Track } from "livekit-client";
+import { nanoid } from "nanoid";
 
 export default function LiveKitExample() {
   // TODO: get user input for room and name
   const room = "quickstart-room";
-  const name = "quickstart-user";
+  const name = nanoid();
   const [token, setToken] = useState("");
 
   useEffect(() => {

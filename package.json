@@ -33,6 +33,7 @@
     "livekit-server-sdk": "^1.2.6",
     "lucide-react": "^0.279.0",
     "mysql2": "^3.6.1",
+    "nanoid": "^5.0.1",
     "next": "13.4.19",
     "postcss": "8.4.29",
     "prettier": "3.0.3",
