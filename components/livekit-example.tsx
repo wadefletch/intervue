@@ -1,23 +1,14 @@
 "use client";
 
 import "@livekit/components-styles";
-import {
-  LiveKitRoom,
-  VideoConference,
-  GridLayout,
-  ParticipantTile,
-  RoomAudioRenderer,
-  ControlBar,
-  useTracks,
-} from "@livekit/components-react";
+import { LiveKitRoom, VideoConference } from "@livekit/components-react";
 import { useEffect, useState } from "react";
-import { Track } from "livekit-client";
 import { nanoid } from "nanoid";
 
 export default function LiveKitExample() {
   // TODO: get user input for room and name
-  const room = "quickstart-room-2";
-  const name = nanoid();
+  const room = "intervue";
+  const name = process.env.NEXT_PUBLIC_PARTICIPANT_NAME;
   const [token, setToken] = useState("");
 
   useEffect(() => {
