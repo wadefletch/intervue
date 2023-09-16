@@ -43,7 +43,6 @@ export default function LiveKitExample() {
       video={true}
       audio={true}
       token={token}
-      connectOptions={{ autoSubscribe: false }}
       serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       // Use the default LiveKit theme for nice styles.
       data-lk-theme="default"
