@@ -13,6 +13,9 @@
     "migrations:drop": "drizzle-kit drop --config=drizzle.config.ts"
   },
   "dependencies": {
+    "@livekit/components-react": "^1.2.0",
+    "@livekit/components-styles": "^1.0.6",
+    "@mux/spaces-web": "^1.2.0",
     "@planetscale/database": "^1.11.0",
     "@types/node": "20.6.2",
     "@types/react": "18.2.21",
@@ -26,6 +29,8 @@
     "esbuild-register": "^3.5.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "livekit-client": "^1.13.3",
+    "livekit-server-sdk": "^1.2.6",
     "lucide-react": "^0.279.0",
     "mysql2": "^3.6.1",
     "next": "13.4.19",
